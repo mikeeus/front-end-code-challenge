@@ -1,3 +1,52 @@
 .container {
   height: auto;
+  padding: 1.5rem;
+
+  h1 {
+    font-weight: bold;
+    font-size: 72px;
+    color: #0a23a6;
+    margin: 0rem;
+  }
+
+  h2 {
+    font-size: 36px;
+    color: #086607;
+    margin: 0;
+  }
+
+  h3 {
+    color: #f92121;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+  }
+}
+
+.header {
+  text-align: right;
+  display: inline-block;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.server-status {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 36px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 2rem 5rem;
+
+  // Didn't use underline because it wouldn't overlay the text
+  // text-decoration: underline;
+  // text-decoration-color: red;
+  // text-underline-offset: -1px;
+
+  div {
+    line-height: 25px;
+    border-bottom: 3px solid red;
+  }
 }

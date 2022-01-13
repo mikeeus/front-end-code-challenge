@@ -1,0 +1,18 @@
+.server-status {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 36px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 2rem 5rem;
+
+  // Didn't use underline because it wouldn't overlay the text
+  // text-decoration: underline;
+  // text-decoration-color: red;
+  // text-underline-offset: -1px;
+
+  div {
+    line-height: 25px;
+    border-bottom: 3px solid red;
+  }
+}
